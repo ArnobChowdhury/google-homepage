@@ -1,0 +1,3 @@
+Hello, My name is Arnob Chowdhury. I am learning to code with the help of the odin project. As part of the course, I have built the google homepage. Here is a link to the project: 'From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)'.
+
+I have tried to build the page identical to the original page as much as I could. But as this is my first time playing around with HTML and CSS I could not do as much as I wanted to do. 

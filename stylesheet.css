@@ -1,0 +1,180 @@
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	margin:0;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 8px;
+}
+
+li a {
+	text-decoration: none;
+	font-family: arial;
+	color:black;
+	font-size:.8em;
+}
+
+
+
+#navigation {
+	margin-top: 10px;
+	float: right;
+	position: relative;
+}
+
+#navigaton ul {
+	margin: 0 auto;
+	position: absolute;             
+	top: 50%;                         
+   	transform: translate(0, -50%)
+}
+
+#footer {
+	background-color: #f6f3f3;
+	height: 2em;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 10px;
+}
+
+#footer li {
+	padding: 2px;
+	margin: 5px 18px 0px 5px;
+}
+
+#footer li a {
+	color:#6b5555;
+}
+
+#footer li a:hover {
+	color:#6b5555;
+	text-decoration: underline;
+}
+    
+  
+#footer_left{
+	float: left;
+	margin-left: 20px;
+}
+
+#footer_right{
+	float: right;
+	margin-right: 20px;
+}
+
+
+
+#logo {
+        
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+}
+
+.image_container {
+		display: flex;
+		justify-content: center;
+}
+
+#l_submit {
+	float: left;
+	margin: 30px 5px 0px 155px;
+	padding: 10px 15px;
+	border: .5px solid #f0f0f0;
+	background-color: #f0f0f0;
+	font-size:.8em;
+	font-family: Arial;
+	font-weight: bold;
+	color:#817B7B;
+	border-radius: 2px;
+}
+
+#r_submit {
+    float: right;
+    margin: 30px 155px 0px 5px;
+    padding: 10px 15px;
+    border: .5px solid #f0f0f0;
+    background-color: #f0f0f0;
+    font-size:.8em;
+    font-family: Arial;
+    font-weight: bold;
+    color:#817B7B;
+    border-radius: 2px;
+}
+
+input[type=search] {
+    width: 570px;
+    height: 40px;
+    padding: 5px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .2px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=search]:hover {
+    width: 570px;
+    height: 40px;
+    padding: 5px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .2px solid #1616ef;
+    box-sizing: border-box;
+}
+
+input[type=search]:focus {
+    width: 570px;
+    height: 40px;
+    padding: 5px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .2px solid blue;
+    box-sizing: border-box;
+}
+
+
+#l_submit:hover {
+	border: .5px solid #c6bdbd;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.05),0 1px 1px 0 rgba(0,0,0,0.05);
+	color: #2d2727;
+}
+
+#r_submit:hover {
+	border: .5px solid #c6bdbd;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.05),0 1px 1px 0 rgba(0,0,0,0.05);
+	color: #2d2727;
+}
+
+#account_letter {
+	padding-top: 7px;
+}
+
+#navigation ul li {
+	padding-bottom: 20px;
+}
